@@ -75,4 +75,7 @@ Estructura clientes HTTP centralizados para consumir el backend:
 - **Feedback de Usuario:** Estados de carga (loaders/spinners), alertas de éxito o error al enviar formularios, y diálogos de confirmación al cancelar una reserva.
 - **Estructura de Directorios:** Muestra el árbol de carpetas propuesto tanto para `/backend` como para `/frontend` antes de desplegar el código.
 
-IMPORTANTE: Guiate de este repositorio: https://github.com/Mariana-Marin/APP-Paseo-Entrega-Final
+NOTA: Este proyecto ("Portal del Paraíso") tiene identidad, diseño y arquitectura
+propios (Spring Boot + JWT + H2 en servidor local, y React + Vite en local). No
+debe parecerse a otras entregas; implementa la misma lógica de negocio con una
+solución independiente.

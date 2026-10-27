@@ -1,6 +1,13 @@
 # Bases de datos H2 locales (se generan al correr el backend)
 *.mv.db
 *.trace.db
+*.lock.db
+
+# Artefactos de compilacion
+backend/target/
+frontend/dist/
+frontend/node_modules/
+node_modules/
 
 # Entornos y secretos
 .env
